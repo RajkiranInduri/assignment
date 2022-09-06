@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <style>
+    .container {
+      width: 300px;
+      height: 300px;
+      margin: 50px;
+      /* padding: 50px; */
+      /* background-color: black; */
+      border: 2px solid black;
+    }
+    .titlebox {
+      width: 250px;
+    }
+    .titlebox input {
+      width: 288px;
+      height: 35px;
+      margin-top: 5px;
+      margin-left: 2px;
+      margin-right: 6px;
+      border: 2px solid black;
+    }
+    .operation-box {
+        height: 127px;
+    }
+
+    .operation-box table{
+      width: 100%;
+      height: 200%;
+      border-spacing: 10px;
+    }
+    .operation-box td {
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px;
+    }
+    h1{
+        /* margin: 2px; */
+        position: relative;
+        left: 35px;
+    }
+  </style>
+
+  <body>
+    <h1>calculator</h1>
+    <div class="container">
+      <div class="titlebox">
+        <!-- <h1>calculator</h1> -->
+
+        <input type="text" placeholder="13" />
+      </div>
+
+      <div class="operation-box">
+        <table>
+          <tr>
+            <td>+</td>
+            <td>-</td>
+            <td>*</td>
+            <td>/</td>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td rowspan="2">=</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
